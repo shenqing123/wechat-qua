@@ -1,0 +1,26 @@
+/**index.wxss**/
+.mycontainer{
+  padding: 50rpx,10rpx;
+}
+.logo{
+  width:350rpx;
+  
+}
+.btn-body{
+  margin: 50rpx 20rpx;
+}
+.btn-item{
+  width: 400rpx;
+ 
+}
+.btn-item1{
+  width: 200rpx;
+  height: 200rpx;
+  margin: 50rpx 20rpx;
+  float: left;
+  padding: 30rpx;
+  word-spacing:normal;
+  font-size:150%;
+  text-align: center;
+  
+}

@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<view class='container'>
+
+<view class='game'>
+<block wx:if="{{myQuesList[current].pic==''}}">
+  <view class='userInfo'>
+    <block wx:if='{{!hasUserInfo}}'>
+      <image class='game-img'src='../../img/logo.jpeg'></image>
+      <view calss='game-desc'>加油~~</view>
+    </block>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</block>
+</view>
+
+<view class="game-body">
+  <view class='title'>第{{current+1}}题</view>
+  <view class='question'>{{myQuesList[current].question}}</view>
+  <block wx:if="{{myQuesList[current].pic!=''}}">
+    <image class='ques-img' src='{{myQuesList[current].pic}}'></image>
+  </block>
+  
+  <radio-group class="select" bindchange="radioChange">
+    <view class="clear-pull " wx:for="{{myQuesList[current].items}}">
+      <view class="pull-left item row">{{item.name}}</view>
+      <radio class="pull-left row radio" value="{{item.value}}" data-name="{{item.name}}" checked="{{item.checked}}" bindtap='tap'/>
+       
+    </view>
+  </radio-group>
+
+
+
+</view>
+
+
+<view class='game-btn'>
+
+  
+</view>
+  <view class='btn-body'>
+    <block wx:if='{{current<4}}'>
+      <button class='btn-item' bindtap='bindNext' >下一题</button>
+    </block>
+  <block wx:else>
+    <button class='btn-item' type='warn' bindtap='bindShowGrade' >显示成绩</button>
+  </block>
+
+  </view>
+
+</view>

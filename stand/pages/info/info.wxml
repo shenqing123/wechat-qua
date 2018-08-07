@@ -1,0 +1,5 @@
+<!--pages/info/info.wxml-->
+<text class='txt'>{{rule}}</text>
+  <view class='btn-body'>
+    <button type= class='btn-item' bindtap='bindStart'>重新开始</button>
+  </view>

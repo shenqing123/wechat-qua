@@ -1,0 +1,28 @@
+/**index.wxss**/
+
+.btns{
+  
+  margin-top: 50rpx;
+  display:-webkit-flex;
+ 
+}
+.right{
+  background-color: #7ce9a9
+}
+.wrong{
+  background-color: lightcoral
+}
+.btn{
+  width:80rpx;
+  height: 80rpx;
+  border-radius: 50rpx;
+  margin-right: 25rpx;
+}
+.scoreList{
+  margin-top:50rpx;
+  text-align: center;
+
+}
+.oneScore{
+  margin-top: 10rpx;
+}

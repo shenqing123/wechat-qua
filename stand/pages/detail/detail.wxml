@@ -1,0 +1,21 @@
+<!--pages/detail/detail.wxml-->
+<view class='mycontainer'>
+<view class="game-body">
+  <view class='title'>题目</view>
+  <view class='question'>{{nowQuestion.question}}</view>
+  <block wx:if="{{nowQuestion.pic!=''}}">
+    <image class='ques-img' src='{{nowQuestion.pic}}'></image>
+  </block>
+  
+  <view class='title'>你的答案:</view>{{yourAnswer}}
+  <view class='title'>正确答案:</view>{{right}}
+  <view class='title'>问题解析:</view>
+    <view class=''>{{nowQuestion.detail}}</view>
+
+</view>
+
+  <view class='btn-body'>  
+    <button class='btn-item' bindtap='bindBack' >返回</button>
+  </view>
+
+</view>

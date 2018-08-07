@@ -1,0 +1,71 @@
+/**index.wxss**/
+
+radio {
+  transform: scale(1.5)
+}
+
+.title{
+  margin-top: 30rpx;
+  text-align: center;
+  font-size: larger;
+}
+
+.question{
+  margin: 20rpx 50rpx;
+  font-size: larger;
+  text-align: center;
+}
+.ques-img{
+  width:400rpx;
+  height:400rpx;
+  margin:0rpx auto;
+}
+
+.select{
+  margin: 30rpx 70rpx;
+  
+}
+.clear-pull{
+  clear: both
+}
+.pull-left{
+  float: left
+}
+.item{
+  width:85%;
+ 
+}
+.row{
+    margin-top: 30rpx;
+}
+
+
+
+.userinfo {
+    display: flex;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  display: flex;
+  /* flex-direction: column; */
+  
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+  text-align: center;
+}
+
+.usermotto {
+  margin-top: 200rpx;
+}
+

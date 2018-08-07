@@ -1,0 +1,10 @@
+/* pages/detail/detail.wxss */
+.mycontainer{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50rpx 100rpx;
+  box-sizing: border-box;
+}

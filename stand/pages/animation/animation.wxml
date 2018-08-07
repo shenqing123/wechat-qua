@@ -1,0 +1,6 @@
+<!--pages/animation/animation.wxml-->
+  <view class="page-body">
+    <view class="page-body-wrapper">
+      <canvas canvas-id="canvas" class="canvas"></canvas>
+    </view>
+  </view>

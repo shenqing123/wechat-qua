@@ -1,0 +1,19 @@
+{
+  "pages":[
+    
+    "pages/begin/begin",
+    "pages/award/award",
+    "pages/play/play",
+    "pages/index/index",
+    "pages/info/info",
+    "pages/detail/detail",
+    "pages/animation/animation",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "一站到底",
+    "navigationBarTextStyle":"black"
+  }
+}

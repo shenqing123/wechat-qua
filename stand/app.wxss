@@ -1,0 +1,58 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50rpx 10rpx 0rpx 10rpx;
+  box-sizing: border-box;
+} 
+.btn-body{
+  margin-top: 50rpx;
+}
+.btn-item{
+  width: 400rpx;
+  margin: 10rpx auto;
+  color: white; 
+  background-color: #ec4c8a; 
+  border-color: #ec4c8a;
+}
+radio {
+  transform: scale(1.5)
+}
+
+.title{
+  margin-top: 30rpx;
+  text-align: center;
+  font-size: larger;
+}
+
+.question{
+  margin: 20rpx 50rpx;
+  font-size: larger;
+  text-align: center;
+}
+.ques-img{
+  width:400rpx;
+  height:400rpx;
+  margin:0rpx auto;
+}
+
+.select{
+  margin: 30rpx 70rpx;
+  
+}
+.clear-pull{
+  clear: both
+}
+.pull-left{
+  float: left
+}
+.item{
+  width:85%;
+ 
+}
+.row{
+    margin-top: 30rpx;
+}

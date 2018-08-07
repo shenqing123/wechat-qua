@@ -1,0 +1,10 @@
+/* pages/info/info.wxss */
+.txt{
+  width: 400rpx;
+  position: absolute;
+  top: 25%;
+  left: 25%
+}
+.btn-body{
+  margin-top: 800rpx;
+}

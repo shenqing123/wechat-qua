@@ -1,0 +1,6 @@
+/* pages/animation/animation.wxss */
+.canvas {
+  width: 500px;
+  height: 800px;
+  background-color: #fff;
+}

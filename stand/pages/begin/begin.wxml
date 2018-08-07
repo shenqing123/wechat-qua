@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class='container'>
+  <view class='header'>
+    <image class="logo" src="../../img/logo.jpg"/>
+  </view>
+  <view class='btn-body'>
+    <button plain style="color: white; background-color: #7ce9a9; border-color: #88ffb9;" type='primary' class='btn-item1' bindtap='bindStart'>挑战</button>
+    <button plain style="color: black; background-color: #ffed00; border-color: #ffed00;" type='primary' class='btn-item1' bindtap='bindFast'>快答</button>
+    
+  </view>
+  <button plain style="color: #ec4c8a; border-color: #ec4c8a;" type='primary' class='btn-item' bindtap='bindInfo'>规则说明</button>
+</view>

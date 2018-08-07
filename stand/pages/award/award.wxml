@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+
+    <text class="title">分数：{{fscore}}</text>
+
+
+
+<view class='btns'>
+  <view wx:for="{{numValue}}">
+    <block wx:if="{{numValue[index]==1}}">
+      <button class='btn right' bindtap='select' data-num='{{index}}'>{{index+1}}</button>
+    </block>
+    <block wx:else>
+      <button class='btn wrong' bindtap='select' data-num='{{index}}'>{{index+1}}</button>
+    </block>
+  </view>
+</view>
+
+<view class='scoreList'>
+  <text class='title'>排行榜</text>
+  <view wx:for="{{scoreList}}" class='oneScore'>
+    第{{index+1}}名: {{item}}
+  </view>
+</view>
+
+  <view class='btn-body'>
+    <button  class='btn-item' bindtap='bindStart'>重新开始</button>
+  </view>
+</view>
